@@ -1,0 +1,54 @@
+<template>
+  <div>
+    <table class="table table-hover">
+      <caption class="alert alert-info">
+        <span class="glyphicon glyphicon-thumbs-up"></span> 技能特长（包含IT技能、语言能力、证书、成绩、培训经历）
+      </caption>
+      <tbody>
+        <tr>
+          <td>技能/语言</td>
+          <td>
+            <textarea
+              class="input-xlarge"
+              id="5_1_1"
+              name="5_1_1"
+              placeholder="描述技能/语言，如英语四级"
+              style="width:50%;"
+              rows="3"
+              maxlength="1000"
+            ></textarea>
+          </td>
+          <td></td><td></td>
+        </tr>
+        <tr>
+          <td>证书</td>
+          <td>
+            <textarea
+              class="input-xlarge"
+              id="5_2_1"
+              name="5_2_1"
+              placeholder="描述个人在校期间各类证书/奖状"
+              style="width:60%;"
+              rows="3"
+              maxlength="1000"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>其他</td>
+          <td>
+            <textarea
+              class="input-xlarge"
+              id="5_3_1"
+              name="5_3_1"
+              placeholder="描述需要补充的个人特色"
+              style="width:90%;"
+              rows="5"
+              maxlength="1000"
+            ></textarea>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</template>
